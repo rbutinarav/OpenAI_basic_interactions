@@ -1,7 +1,6 @@
 import os
 import openai
 import json
-import pandas as pd
 from dotenv import load_dotenv
 
 #LOAD ENV VARIABLES
@@ -17,12 +16,11 @@ max_tokens_openAI=300
 #GET RESPONSE FROM OPENAI
 response = openai.Completion.create(model=model_openAI, prompt=prompt_openAI, temperature=temperature_openAI, max_tokens=max_tokens_openAI)
 
-#EFFETTUA IL PARSING DEL JSON DI RITORNO
+#PARSE RESPONSE JSON TO GET TEXT COMPLETION FIELD 
 response_str=str(response) #converte oggetto OpenAI in str
 response_dict=json.loads(response_str) #converte la stringa formattata in json in variabile dict
-response_text = response_dict['choices'][0]['text']
+response_text = response_dict['choices'][0]['text'] #estrae la completion (choices/0/text)
 
-#VISUALIZZA PROMPT E RISPOSTA
-
+#VISUALIZE PROMPT AND COMPLETION
 print('Prompt:',prompt_openAI)
-print('Risposta:',response_text)
+print('Completion:',response_text)
