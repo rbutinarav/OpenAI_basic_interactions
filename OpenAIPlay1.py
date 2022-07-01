@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 #LOAD ENV VARIABLES
 load_dotenv()
-#openai.api_key = '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'
 openai.api_key = os.getenv('OPENAI_KEY')
 
 #PROMPT & SETTINGS
