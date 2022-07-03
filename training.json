@@ -1,0 +1,6 @@
+[{
+"prompt": "Analizza il sentiment. Ristorante pessimo, non torneremo mai più",
+"completion": "Sentiment: molto negativo"},
+{
+"prompt": "Analizza il sentiment. Servizio molto buono, cibo ottimo",
+"completion": "Sentiment: molto positivo"}]

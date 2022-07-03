@@ -1,0 +1,16 @@
+Text: I was there yesterday with some friends, generally a cool place. I will come back.
+Topics: 1
+Topic 1: sentiment: positive; subject: general
+General: positive
+
+Text: I had to wait for 2 hours to have our food served and it also tasted bad. We will never come back!
+Topics: 2
+Topic 1: sentiment: very negative; subject: service
+Topic 2: sentiment: very negative; subject: food
+General: very negative
+
+Text: A very beautiful location and the food was also excellent.
+Topics: 2
+Topic 1: sentiment: very positive; subject: location
+Topic 2: sentiment: very positive; subject: food
+General: very positive

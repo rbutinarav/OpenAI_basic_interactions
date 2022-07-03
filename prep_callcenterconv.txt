@@ -1,0 +1,44 @@
+**Inizio conversazione
+Cliente: buongiorno
+Operatore: buongiorno, come posso aiutarla?
+Cliente: ho un problema con una fattura, qui c’è scritto che non l’ho pagata ma non è cosí
+Operatore: gentilmente può indicarmi il suo numero cliente? Lo trova indicato in fattura in alto a sinistra
+Cliente: sì, aspetti un attimo … eccolo… numero: 3573198
+Operatore: ho bisogno di confermare la sua identità. Può dirmi il suo nome e cognome?
+Cliente: Mario Borgesi.
+Operatore: la sua data di nascita?
+Cliente: 3 gennaio 1981
+Operatore: buongiorno sig. Borgesi, dai nostri sistemi vedo che effettivamente ci risulta una fattura non pagata, è la numero 357912 del 4 aprile 2021.
+Cliente: ma non è possibile! Ho fatto il bonifico io stesso due settimane fa!!
+Operatore: può darsi che ci sia stato un ritardo nell’acquisizione a sistema del suo pagamento. Gentilmente, può inviarlo al seguente indirizzo: fattureinsolute@elettrici2030.it ?
+Cliente: sì, certo. Guardi, gliela sto inviando adesso… fatto. Arrivata?
+Operatore: la ringrazio, purtroppo non ho accesso diretto a quella casella di posta, potrà volerci qualche ora perchè sia acquisita, in ogni caso appena ricevuta la ricontatteremo telefonicamente. La possiamo ricontattare al numero da cui ci sta chiamando in questo momento?
+Cliente: sì, certamente,
+Operatore: d’accordo sig. Borgesi, non appena avremo acquisito la sua email la ricontatteremo.
+Cliente: va bene allora aspetto una vostra telefonata.
+Operatore: certamente. Le auguro una buona giornata.
+Cliente: anche a lei
+
+**Analisi della conversazione
+Qual è l’argomento della conversazione?
+Il cliente ha un problema relativo a una fattura.
+
+Qual è il problema specifico?
+Il cliente non ha pagato la fattura, ma sostiene di averlo già fatto.
+
+Qual è l’umore del cliente?
+Il cliente sembra molto arrabbiato.
+
+Qual è la sintesi della conversazione?
+Il cliente ha un problema relativo a una fattura non pagata. L'operatore gli spiega che c'è stato un ritardo nell'acquisizione a sistema del suo pagamento e gli chiede di inviare la fattura all'indirizzo fattureinsolute@elettrici2030.it.
+
+L’operatore si è comportato in modo professionale?
+Sì, l’operatore si è comportato in modo professionale.
+
+Il cliente è stato rispettoso?
+Sì, il cliente è stato rispettoso.
+
+Quali sono le prossime azioni concordate?
+L'operatore e il cliente hanno concordato di ricontattarsi telefonicamente non appena l'operatore avrà ricevuto la fattura.
+
+**Termine analisi dellla conversazione

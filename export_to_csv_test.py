@@ -1,3 +1,6 @@
+'''This is a script to export the data from the database to a csv file.
+   Still in development.'''
+
 import os
 import openai
 import json
