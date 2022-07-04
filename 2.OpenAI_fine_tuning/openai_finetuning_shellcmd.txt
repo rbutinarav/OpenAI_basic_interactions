@@ -1,0 +1,10 @@
+# Fine tuning CANNOT be executed within Python
+# 1.Open a bash shell terminal
+# 2.Use this scripts:
+ $ export OPENAI_API_KEY=<YOUR API KEYS>  #to login to the OpenAI API 
+ $ openai tools fine_tunes.prepare_data -f training_reviews.json  #to analyze your training file and get recommendations
+ $ openai api fine_tunes.create -t  <YOUR TRAINING FILE> -m davinci #to fine tune your model
+ $ openai api fine_tunes.follow -i <YOUR_FINE_TUNE_JOB_ID>  # to have the status of your job / or the name of the model if completed
+ $ openai api fine_tunes.list #to get a list of fine tuned models
+ $ openai api fine_tunes.get -i <YOUR_FINE_TUNE_JOB_ID> #to have a status of your job
+ $ openai api fine_tunes.cancel -i <YOUR_FINE_TUNE_JOB_ID> # to cancel your job
