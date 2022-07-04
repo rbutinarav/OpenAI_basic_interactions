@@ -1,6 +1,6 @@
 def ai_complete(prompt='Hello', model='text-davinci-002', temperature=0.2, max_tokens=6, verbose=False):
     """
-    Returns a string with the completion of the prompt.
+    Returns a string with the completion of the prompt
     """
     import os
     import openai
@@ -22,7 +22,7 @@ def ai_complete(prompt='Hello', model='text-davinci-002', temperature=0.2, max_t
 
 def ai_training ():
     """
-    Train a model from json dataset and return the model name.
+    Train a model from json dataset and return the model name
     """
     import os
     import openai
