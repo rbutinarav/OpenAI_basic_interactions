@@ -1,4 +1,4 @@
-Text: I was there yesterday with some friends, generally a cool place. I will come back.
+Text: I was there yesterday with some friends, generally a cool place. I will come back. 
 Topics: 1
 Topic 1: sentiment: positive; subject: general
 General: positive

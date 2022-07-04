@@ -15,6 +15,3 @@ def json_to_df (file_name):
     # Closing file
     json_file.close()
     return json_df
-
-df=json_to_df('training.json') 
-print(df)
