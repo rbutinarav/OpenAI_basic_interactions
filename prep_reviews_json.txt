@@ -1,0 +1,44 @@
+From reviews, extract topics and sentiment and format them in json.
+
+Review: I was there yesterday with some friends, generally a cool place. I will come back. 
+{
+    "text": "I was there yesterday with some friends, generally a cool place. I will come back.",
+    "topics": [
+        {
+            "sentiment": "positive",
+            "subject": "general"
+        }
+    ],
+    "general": "positive"
+}
+
+Review: I had to wait for 2 hours to have our food served and it also tasted bad. We will never come back!
+{
+    "text": "I had to wait for 2 hours to have our food served and it also tasted bad. We will never come back!",
+    "topics": [
+        {
+            "sentiment": "very negative",
+            "subject": "service"
+        },
+        {
+            "sentiment": "very negative",
+            "subject": "food"
+        }
+    ],
+    "general": "very negative"
+}
+Review: A very beautiful location and the food was also excellent.
+{
+    "text": "A very beautiful location and the food was also excellent.",
+    "topics": [
+        {
+            "sentiment": "very positive",
+            "subject": "location"
+        },
+        {
+            "sentiment": "very positive",
+            "subject": "food"
+        }
+    ],
+    "general": very positive"
+}
