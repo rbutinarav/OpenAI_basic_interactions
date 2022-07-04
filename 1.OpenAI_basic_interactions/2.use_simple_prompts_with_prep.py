@@ -1,4 +1,4 @@
-from openai_functions import ai_complete #import ai_complete: returns a string with the completion of the prompt
+from openai_functions import ai_complete
 
 #EXAMPLE 2: USE OF ai_complete WITH A PROMPT AND A TRAINING TEXT USED TO EXTEND THE PROMPT (RESTAURANT REVIEWS)
 

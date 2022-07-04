@@ -1,3 +1,5 @@
+'''This is a collection of functions that interact directly with OpenAI API'''
+
 def ai_complete(prompt='Hello', model='text-davinci-002', temperature=0.2, max_tokens=6, verbose=False):
     """
     Returns a string with the completion of the prompt
@@ -20,22 +22,21 @@ def ai_complete(prompt='Hello', model='text-davinci-002', temperature=0.2, max_t
         return prompt, response_text
     return response_text
 
-def ai_training ():
+def ai_model_list ():
     """
-    Train a model from json dataset and return the model name
+    Get the model list from openai
     """
     import os
     import openai
-    import json
     from dotenv import load_dotenv
-    import pandas as pd
 
     #LOAD ENV VARIABLES
     load_dotenv()
     openai.api_key = os.getenv('OPENAI_KEY')
+    output = openai.Model.list()
 
-    return ('This is a test')
+    return (output)
 
-#THESE ARE EXAMPLES OF USE OF THE AI_COMPLETE FUNCTION
+#EXAMPLES
 #print(ai_complete("Il migliore amico dell'uomo è", verbose=True))
-#print(ai_complete("Il più grande musicista di tutti i tempi è",verbose=True))
+#print(ai_model_list())
