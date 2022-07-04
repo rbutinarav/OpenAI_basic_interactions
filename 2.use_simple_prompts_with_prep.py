@@ -1,12 +1,12 @@
-from openai_functions import ai_complete
+from openai_functions import ai_complete #import ai_complete: returns a string with the completion of the prompt
 
 #EXAMPLE 2: USE OF ai_complete WITH A PROMPT AND A TRAINING TEXT USED TO EXTEND THE PROMPT (RESTAURANT REVIEWS)
 
-prompt="Review: Locale molto accogliente, ampia selezione di vini, menù con poche portate ma molto ricercate e buone, prezzi alti ma in linea con la qualità del cibo e del servizio."
+prompt="Text: Locale molto accogliente, ampia selezione di vini, menù con poche portate ma molto ricercate e buone, prezzi alti ma in linea con la qualità del cibo e del servizio."
 
-with open ('prep_reviews_json.txt', 'r') as f:
+with open ('prep_reviews.txt', 'r') as f:
     prep = f.read()
 
 extended_prompt=prep+'\n'+prompt
 
-print('REVIEW:\n',prompt,'\n\nTEXT ANALYICS:', ai_complete(extended_prompt, max_tokens=200))
+print('REVIEW:\n',prompt,'\n\nTEXT ANALYICS:', ai_complete(extended_prompt, max_tokens=100))
