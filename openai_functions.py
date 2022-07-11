@@ -1,5 +1,3 @@
-'''This is a collection of functions that interact directly with OpenAI API'''
-
 def ai_complete(prompt='Hello', model='text-davinci-002', temperature=0.2, max_tokens=6, verbose=False):
     """
     Returns a string with the completion of the prompt
@@ -40,3 +38,4 @@ def ai_model_list ():
 #EXAMPLES
 #print(ai_complete("Il migliore amico dell'uomo è", verbose=True))
 #print(ai_model_list())
+
